@@ -20,7 +20,7 @@ class Home extends BaseController
 
         // Disallow sensitive or non-SEO pages
         foreach($supportedLocales as $locale){
-            $robotsTxt .= "Disallow: {$locale}/correctfile/\n";
+            $robotsTxt .= "Disallow: {$locale}/therealcorrectfile/\n";
             $robotsTxt .= "Disallow: {$locale}/login/\n";
             $robotsTxt .= "Disallow: {$locale}/logout\n";
             $robotsTxt .= "Disallow: {$locale}/signup/\n";
